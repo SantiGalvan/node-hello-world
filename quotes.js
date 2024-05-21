@@ -43,6 +43,22 @@ const quotes = [
         paragraph: 'Per ogni minuto che rimani arrabbiato perdi 60 secondi di felicità.',
         author: 'Ralph Waldo Emerson'
     },
+    {
+        paragraph: "L'unica cosa che rende impossibile il raggiungimento del successo è la mancanza di volontà di provare.",
+        author: "Albert Einstein"
+    },
+    {
+        paragraph: "Il momento migliore per iniziare a fare qualcosa è adesso.",
+        author: "Proverbio cinese"
+    },
+    {
+        paragraph: "Se puoi sognarlo, puoi farlo.",
+        author: "Walt Disney"
+    },
+    {
+        paragraph: "Non è mai troppo tardi per essere ciò che hai sempre desiderato essere.",
+        author: "George Eliot"
+    }
 ];
 
 module.exports = quotes;
