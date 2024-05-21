@@ -6,14 +6,14 @@ const html = process.env.HTML;
 const quotes = require('./quotes');
 
 // Funzione
-const getRandom = (value) => {
+const getRandomNumber = (value) => {
     return Math.floor(Math.random() * value)
 }
 
 // Server
 const server = http.createServer((req, res) => {
     const value = quotes.length - 1;
-    const index = getRandom(value);
+    const index = getRandomNumber(value);
 
     if (req.url === '/favicon.ico') {
         res.writeHead(404);
