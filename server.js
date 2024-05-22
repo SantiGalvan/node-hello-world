@@ -12,7 +12,7 @@ const getRandomNumber = (value) => {
 
 // Server
 const server = http.createServer((req, res) => {
-    const value = quotes.length - 1;
+    const value = quotes.length;
     const index = getRandomNumber(value);
 
     if (req.url === '/favicon.ico') {
