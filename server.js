@@ -6,9 +6,7 @@ const title = process.env.TITLE;
 const quotes = require('./quotes');
 
 // Funzione
-const getRandomNumber = (value) => {
-    return Math.floor(Math.random() * value)
-}
+const getRandomNumber = (value) => Math.floor(Math.random() * value)
 
 // Server
 const server = http.createServer((req, res) => {
